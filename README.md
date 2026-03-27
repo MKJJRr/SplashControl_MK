@@ -1,22 +1,26 @@
 # SplashControl_MK 🚀
 
-Uma biblioteca leve para Android que gerencia a retenção da **Splash Screen** nativa de forma síncrona, garantindo que o app só apareça quando estiver pronto.
+**SplashControl_MK** é uma biblioteca ultra-leve para Android projetada para gerenciar a retenção da **Splash Screen nativa**. Ela garante que seu aplicativo só renderize a interface quando tudo estiver pronto, evitando "pulos" de tela e proporcionando uma experiência de usuário (UX) premium.
 
-## 📦 Instalação Manual
-Como esta é uma biblioteca de arquivo único, basta copiar a pasta `libsktmk` para dentro do seu projeto em:
-`app/src/main/java/`
+---
 
-## 🛠️ Como Usar
+## 📦 Tutorial de Instalação (Passo a Passo)
 
-No seu arquivo `MainActivity.kt`, chame o `configurar` antes do `super.onCreate`:
+Siga estas etapas simples para integrar a biblioteca ao seu projeto em menos de 2 minutos:
 
-```kotlin
-override fun onCreate(savedInstanceState: Bundle?) {
-    // Segura a Splash por 2.5 segundos (ou o tempo que desejar)
-    SplashControl.configurar(this, tempoEspera = 2500)
-    
-    super.onCreate(savedInstanceState)
-    setContent { 
-        // Seu conteúdo Compose ou XML aqui
-    }
-}
+### 1. Preparando as pastas
+Navegue até a pasta do seu projeto no seu computador ou celular e siga o caminho:
+`SeuProjeto/app/src/main/java/`
+
+### 2. Importando a Lib
+Copie a pasta `libsktmk` que você baixou e cole dentro da pasta `java` mencionada acima. 
+
+**A estrutura de pastas deve ficar exatamente assim:**
+```text
+app/
+ └── src/
+      └── main/
+           └── java/
+                └── libsktmk/           <-- Pasta da Lib
+                     └── splash_control/
+                          └── SplashControl.kt
