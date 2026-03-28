@@ -38,7 +38,7 @@ Kotlin
 ### 2. Chame o Configurar
 Dentro da função `onCreate`, você deve chamar o `SplashControl.configurar`.
 
-# ⚠️ IMPORTANTE: Esta linha deve vir ANTES do 
+#### ⚠️ IMPORTANTE: Esta linha deve vir ANTES do 
 `super.onCreate(savedInstanceState)` para que a trava da tela funcione corretamente.
 Kotlin
 class MainActivity : ` ComponentActivity() {
