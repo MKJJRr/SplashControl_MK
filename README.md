@@ -3,9 +3,7 @@ Markdown
 # SplashControl_MK 🚀
 
 **SplashControl_MK** é uma biblioteca ultra-leve para Android projetada para gerenciar a retenção da **Splash Screen nativa**. Ela garante que seu aplicativo só renderize a interface quando tudo estiver pronto, evitando "pulos" de tela e proporcionando uma experiência de usuário (UX) premium.
-
 ---
-
 ## 📦 Tutorial de Instalação (Passo a Passo)
 
 Siga estas etapas simples para integrar a biblioteca ao seu projeto em menos de 2 minutos:
@@ -58,24 +56,22 @@ class MainActivity : ` ComponentActivity() {
         }
     }
 }
-
+---
 ### 💡 Funções Extras
 Liberação Manual
 Se você estiver carregando dados de um banco de dados ou API e quiser fechar a Splash assim que terminar (independente do tempo definido), use:
 Kotlin
 `SplashControl.liberar()`
-
+---
 ### ✨ Por que usar esta Lib?
 Sincronização Nativa: Usa o `OnPreDrawListener` do Android, o método oficial para controlar frames de desenho.
 
 Performance: Zero impacto no tamanho do APK final.
 
 Compatibilidade: Funciona perfeitamente com Jetpack Compose e o sistema de View tradicional (XML).
-
+---
 ### 📄 Licença
 Distribuído sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
-
+---
 ## Desenvolvido por MKJJR © 2026
-
-
 ---
