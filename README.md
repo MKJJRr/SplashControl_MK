@@ -43,8 +43,10 @@ Dentro da função `onCreate`, você deve chamar o `SplashControl.configurar`.
 `super.onCreate(savedInstanceState) para que a trava da tela funcione corretamente.`
 
 Kotlin
-class MainActivity : ComponentActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
+class MainActivity : ` ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {`
+    ```
+    ```
         
         // 1. Configura a Splash (Exemplo: segura por 2.5 segundos)
         SplashControl.configurar(this, tempoEspera = 2500)
@@ -57,6 +59,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+
 ### 💡 Funções Extras
 Liberação Manual
 Se você estiver carregando dados de um banco de dados ou API e quiser fechar a Splash assim que terminar (independente do tempo definido), use:
