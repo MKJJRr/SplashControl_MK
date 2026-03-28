@@ -2,7 +2,7 @@
 Markdown
 # SplashControl_MK 🚀
 
-# **SplashControl_MK** é uma biblioteca ultra-leve para Android projetada para gerenciar a retenção da **Splash Screen nativa**. Ela garante que seu aplicativo só renderize a interface quando tudo estiver pronto, evitando "pulos" de tela e proporcionando uma experiência de usuário (UX) premium.
+#### **SplashControl_MK** é uma biblioteca ultra-leve para Android projetada para gerenciar a retenção da **Splash Screen nativa**. Ela garante que seu aplicativo só renderize a interface quando tudo estiver pronto, evitando "pulos" de tela e proporcionando uma experiência de usuário (UX) premium.
 
 ---
 
