@@ -59,7 +59,7 @@ class MainActivity : ` ComponentActivity() {
             // Seu tema e conteúdo aqui...
         }
     }
-}
+`}`
 
 ---
 
