@@ -57,9 +57,7 @@ class MainActivity : ` ComponentActivity() {
         
         setContent {
             // Seu tema e conteúdo aqui...
-        }
-    }
-`}`
+
 
 ---
 
