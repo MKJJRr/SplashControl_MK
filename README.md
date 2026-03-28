@@ -71,6 +71,14 @@ Para garantir que a **SplashControl_MK** funcione, seu projeto deve ter:
 
 ---
 
+### 🔧 Detalhes Técnicos (Internos)
+A biblioteca utiliza componentes nativos para garantir performance:
+- `ViewTreeObserver`: Para interceptar o ciclo de desenho.
+- `Handler/Looper`: Para gerenciamento de tempo e threads.
+- `Activity`: Para acessar o conteúdo da janela atual.
+
+---
+
 ### 💡 Funções Extras
 Liberação Manual
 Se você estiver carregando dados de um banco de dados ou API e quiser fechar a Splash assim que terminar (independente do tempo definido), use:
@@ -86,14 +94,6 @@ Kotlin
 • Performance: Zero impacto no tamanho do APK final.
 
 • Compatibilidade: Funciona perfeitamente com Jetpack Compose e o sistema de View tradicional (XML).
-
----
-
-### 🔧 Detalhes Técnicos (Internos)
-A biblioteca utiliza componentes nativos para garantir performance:
-- `ViewTreeObserver`: Para interceptar o ciclo de desenho.
-- `Handler/Looper`: Para gerenciamento de tempo e threads.
-- `Activity`: Para acessar o conteúdo da janela atual.
 
 ---
 
