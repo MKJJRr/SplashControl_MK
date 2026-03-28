@@ -65,7 +65,7 @@ class MainActivity : ` ComponentActivity() {
 
 Para garantir que a **SplashControl_MK** funcione, seu projeto deve ter:
 
-* **Linguagem:** ` ```kotlin ` 1.5 ou superior.
+* **Linguagem:** kotlin 1.5 ou superior.
 * **Android SDK:** Mínimo API 21 (Android 5.0).
 * **Dependências:** Nenhuma! A lib usa apenas bibliotecas nativas do Android (`android.view`, `android.os`, etc).
 
