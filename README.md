@@ -79,6 +79,14 @@ Kotlin
 
 ---
 
+### 🔧 Detalhes Técnicos (Internos)
+A biblioteca utiliza componentes nativos para garantir performance:
+- `ViewTreeObserver`: Para interceptar o ciclo de desenho.
+- `Handler/Looper`: Para gerenciamento de tempo e threads.
+- `Activity`: Para acessar o conteúdo da janela atual.
+
+---
+
 ### 📄 Licença
 Distribuído sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
 
