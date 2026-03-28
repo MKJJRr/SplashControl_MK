@@ -28,8 +28,7 @@ app/
                           └── SplashControl.kt
 ```
 ## 🛠️ Como Usar no Projeto
-```
-```
+
 ### 1. Importe a Classe
 No topo do seu arquivo `MainActivity.kt` (ou `AtividadePrincipal.kt`), adicione o seguinte import:
 
