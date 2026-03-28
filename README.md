@@ -27,6 +27,7 @@ app/
                      └── splash_control/
                           └── SplashControl.kt
 ```
+---
 ## 🛠️ Como Usar no Projeto
 
 ### 1. Importe a Classe
