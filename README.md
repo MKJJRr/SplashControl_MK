@@ -39,8 +39,7 @@ Kotlin
 Dentro da função `onCreate`, você deve chamar o `SplashControl.configurar`.
 
 ### ⚠️ IMPORTANTE: Esta linha deve vir ANTES do 
-`super.onCreate(savedInstanceState) para que a trava da tela funcione corretamente.`
-
+`super.onCreate(savedInstanceState)` para que a trava da tela funcione corretamente.
 Kotlin
 class MainActivity : ` ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {`
