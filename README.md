@@ -61,6 +61,16 @@ class MainActivity : ` ComponentActivity() {
 
 ---
 
+## 🛠️ Requisitos e Compatibilidade
+
+Para garantir que a **SplashControl_MK** funcione, seu projeto deve ter:
+
+* **Linguagem:** Kotlin 1.5 ou superior.
+* **Android SDK:** Mínimo API 21 (Android 5.0).
+* **Dependências:** Nenhuma! A lib usa apenas bibliotecas nativas do Android (`android.view`, `android.os`, etc).
+
+---
+
 ### 💡 Funções Extras
 Liberação Manual
 Se você estiver carregando dados de um banco de dados ou API e quiser fechar a Splash assim que terminar (independente do tempo definido), use:
