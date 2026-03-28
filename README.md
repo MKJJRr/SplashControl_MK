@@ -70,11 +70,12 @@ Kotlin
 ---
 
 ### ✨ Por que usar esta Lib?
-Sincronização Nativa: Usa o `OnPreDrawListener` do Android, o método oficial para controlar frames de desenho.
 
-Performance: Zero impacto no tamanho do APK final.
+• Sincronização Nativa: Usa o `OnPreDrawListener` do Android, o método oficial para controlar frames de desenho.
 
-Compatibilidade: Funciona perfeitamente com Jetpack Compose e o sistema de View tradicional (XML).
+• Performance: Zero impacto no tamanho do APK final.
+
+• Compatibilidade: Funciona perfeitamente com Jetpack Compose e o sistema de View tradicional (XML).
 
 ---
 
